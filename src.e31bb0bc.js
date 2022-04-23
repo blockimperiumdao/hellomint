@@ -46775,7 +46775,7 @@ __exportStar(require("./browser-connect"), exports);
 require("error-polyfill");
 
 },{"./key_stores/browser-index":"../node_modules/near-api-js/lib/key_stores/browser-index.js","./common-index":"../node_modules/near-api-js/lib/common-index.js","./browser-connect":"../node_modules/near-api-js/lib/browser-connect.js","error-polyfill":"../node_modules/error-polyfill/index.js"}],"config.js":[function(require,module,exports) {
-const CONTRACT_NAME = "dev-1650683187731-45884175757677" || 'hellomint.afrorick.test';
+const CONTRACT_NAME = 'hellomint.afrorick.test';
 
 function getConfig(env) {
   switch (env) {
@@ -46989,7 +46989,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const {
   networkId
-} = (0, _config.default)('hellomint.afrorick.testnet');
+} = (0, _config.default)('development');
 
 function App() {
   // use React Hooks to store greeting in component state
