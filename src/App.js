@@ -4,7 +4,7 @@ import { login, logout } from './utils'
 import './global.css'
 
 import getConfig from './config'
-const { networkId } = getConfig(process.env.NODE_ENV || 'hellomint.afrorick.testnet')
+const { networkId } = getConfig('development')
 
 export default function App() {
   // use React Hooks to store greeting in component state
