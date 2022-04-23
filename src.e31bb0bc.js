@@ -46989,7 +46989,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const {
   networkId
-} = (0, _config.default)("development" || 'hellomint.afrorick.testnet');
+} = (0, _config.default)('hellomint.afrorick.testnet');
 
 function App() {
   // use React Hooks to store greeting in component state
